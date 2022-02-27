@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utilities.css">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <title>Loruki | Petshop da Familiar</title>
 </head>
+
 <body>
 
   <!-- NAVBAR -->
-  <div class="navbar">
+  <div class="navbar bg-primary">
     <div class="container flex">
       <h1 class="logo">Loruki.</h1>
       <nav>
@@ -25,16 +27,29 @@
     </div>
   </div>
 
-  Serviços
-  Conheça os serviços da Loruki que nos separa da concorrência.
+  <!-- HEAD -->
+  <section class="services-head bg-primary py-3">
+    <div class="container grid">
+      <div>
+        <h1 class="xl">Serviços</h1>
+        <p class="lead">Conheça os serviços da Loruki que nos separa da concorrência.</p>
+      </div>
+      <img src="images/petshop.png" alt="">
+    </div>
+  </section>
 
-  Imagem
+  <!-- SUBHEAD -->
+  <section class="services-sub-head bg-light py-3">
+    <div class="container grid">
+      <div>
+        <h1 class="md">O Petshop Loruki</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, obcaecati nisi aliquid id iste veniam at quo non, fuga quis iusto incidunt consequuntur aspernatur doloremque exercitationem, ab quae minima optio!</p>
+      </div>
+      <img src="images/animals.png" alt="">
+    </div>
+  </section>
 
-  O Petshop Loruki
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus possimus aliquam harum aliquid totam odio a distinctio! Laudantium incidunt tempore aut atque laborum consectetur deserunt explicabo odio qui, sapiente dignissimos maiores harum impedit. Suscipit vero reiciendis consectetur error dolor iste officiis, hic quod! Velit sunt vel quibusdam molestias, corporis dignissimos.
-
-  Imagem
-
+section.
   <div class="card">Hospedagem</div>
   <div class="card">Plano de Saúde</div>
   <div class="card">Veterinário</div>
@@ -42,22 +57,32 @@
   <div class="card">Passeador</div>
   <div class="card">Creche</div>
   
-  <footer>
-    <div class="container">
-      Loruki.
-      Copyright (C) 2022
-    
-      Inicio
-      Serviços
-      Link3
-    
-      Instagram
-      Facebook
-      Twitter
-    
-      Todas as imagens utilizadas neste projeto foram <a href="http://www.freepik.com">Projetadas por Freepik</a>
+
+<!-- FOOTER -->
+<footer class="footer bg-dark py-5">
+  <div class="container">
+    <div class="grid grid-3">
+      <div>
+        <h1>Loruki.</h1>
+        <p>Copyright &copy; 2022</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="#">link3</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
     </div>
-  </footer>
+    <br>
+    <small>Todas as imagens utilizadas neste projeto foram <a href="http://www.freepik.com"><u>Projetadas por Freepik</u></a>.</small>
+  </div>
+</footer>
 
 </body>
 </html>

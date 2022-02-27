@@ -10,4 +10,4 @@ Custom website created using HTML5 and modern CSS techniques based in [Loruki Cl
 
 #
 
-Developed by Eduarda Carvalho, February/2022.
+_Developed by Eduarda Carvalho, February/2022._

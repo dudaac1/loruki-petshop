@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utilities.css">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <title>Loruki | Petshop da Familiar</title>
 </head>
+
 <body>
 
   <!-- NAVBAR -->
-  <div class="navbar">
+  <div class="navbar bg-primary">
     <div class="container flex">
       <h1 class="logo">Loruki.</h1>
       <nav>
@@ -25,86 +27,117 @@
     </div>
   </div>
 
-  <section class="showcase">
-    <div class="container">
-      Petshop da Família
-      Aceitamos diversos tipos de animais, dos pequenos aos grandes. Preencha o formulário para agendar um horário gratuito
-      Saiba Mais (>Serviços)
-    
-      Solicite um horário
-      Nome
-      Nome do animal
-      Email
-      Enviar
+ <!-- SHOWCASE -->
+ <section class="showcase bg-primary">
+  <div class="container grid">
+    <div class="showcase-text">
+      <h1>Petshop da Família</h1>
+      <p>Aceitamos diversos tipos de animais, dos pequenos aos grandes. Preencha o formulário para agendar um horário gratuito</p>
+      <a href="servicos.html" class="btn btn-outline">Saiba Mais</a>
     </div>
-  </section>
+    <div class="showcase-form card">
+      <h2>Solicite um horário</h2>
+      <form>
+        <div><input type="text" name="Name" placeholder="Nome" required></div>
+        <div><input type="text" name="NameAnimal" placeholder="Nome do animal" required></div>
+        <div><input type="email" name="Email" placeholder="Email" required></div>
+        <input type="submit" name="Submit" value="Enviar" class="btn btn-primary">
+      </form>
+    </div>
+  </div>
+</section>
 
- 
-  <section class="stats">
-    <div class="container">
+ <!-- STATS -->
+<section class="stats">
+  <div class="container">
+    <h3 class="stats-heading text-center my-1">
       Seja bem-vindo ao petshop premiado em cuidado com animais.
       Todos os ambientes limpos e de design moderno.
-    
-      <div class="div">
-        icone
-        52
-        Funcionários
+    </h3>
+  
+    <div class="grid grid-3 text-center my-4">
+      <div class="text-center">
+        <i class="fas fa-id-card-clip fa-3x"></i>
+        <h3>27</h3>
+        <p class="text-secondary">Funcionários</p>
       </div>
       
-      <div class="div">
-        icone
-        231
-        Clientes
+      <div>
+        <i class="fas fa-users fa-3x"></i>
+        <h3>531</h3>
+        <p class="text-secondary">Clientes</p>
       </div>
-
-      <div class="div">
-        icone
-        1.689
-        Atendimentos
+      
+      <div>
+        <i class="fas fa-paw fa-3x"></i>
+        <h3>2.344</h3>
+        <p class="text-secondary">Atendimentos</p>
       </div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section class="happy">
-    <div class="container">
-      Imagem
-      <div class="card">Seu animal feliz e cuidado</div>
-      <div class="div">E você descansado</div>
-    </div>
-  </section>
+<!-- HEALTH -->
+<section class="health">
+  <div class="container grid">
+    <img src="images/health.png" alt="">
+    <div class="card"><h3>Seu animal feliz e bem cuidado</h3></div>
+    <div class="card"><h3>E você descansado</h3></div>
+  </div>
+</section>
   
-  <section class="services">
-    <div class="container">
-      Conheça nossos serviços
-      Um petshop como você nunca viu. Rápido, eficiente e cheio de amor.
-      Saiba Mais (>Serviços)
-    
-      Espécies mais atendidas
-      <div class="card">animal1</div>
-      <div class="card">animal2</div>
-      <div class="card">animal3</div>
-      <div class="card">animal4</div>
-      <div class="card">animal5</div>
-      <div class="card">animal6</div>
+<!-- SERVICES -->
+<section class="services bg-primary my-2 py-2">
+  <div class="container grid">
+    <div class="text-center">
+      <h2 class="lg">Conheça nossos serviços</h2>
+      <p class="lead my-1">Um petshop como você nunca viu. Rápido, eficiente e cheio de amor.</p>
+      <a href="servicos.html" class="btn btn-dark">Saiba Mais</a>
     </div>
-  </section>
+    <img src="images/services.png" alt="">
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      Loruki.
-      Copyright (C) 2022
-    
-      Inicio
-      Serviços
-      Link3
-    
-      Instagram
-      Facebook
-      Twitter
-    
-      Todas as imagens utilizadas neste projeto foram <a href="http://www.freepik.com">Projetadas por Freepik</a>
+<!-- ANIMALS -->
+<section class="animals">
+  <h2 class="md text-center my-2">
+    Animais mais atendidos
+  </h2>
+  <div class="container flex">
+    <div class="card"><img src="images/animals/animal1.png" alt=""></div>
+    <div class="card"><img src="images/animals/animal3.png" alt=""></div>
+    <div class="card"><img src="images/animals/animal4.png" alt=""></div>
+    <div class="card"><img src="images/animals/animal7.png" alt=""></div>
+    <div class="card"><img src="images/animals/animal5.png" alt=""></div>
+    <div class="card"><img src="images/animals/animal6.png" alt=""></div>
+    <div class="card"><img src="images/animals/animal2.png" alt=""></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer bg-dark py-5">
+  <div class="container">
+    <div class="grid grid-3">
+      <div>
+        <h1>Loruki.</h1>
+        <p>Copyright &copy; 2022</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="#">link3</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
     </div>
-  </footer>
+    <br>
+    <small>Todas as imagens utilizadas neste projeto foram <a href="http://www.freepik.com"><u>Projetadas por Freepik</u></a>.</small>
+  </div>
+</footer>
 
 </body>
 </html>
