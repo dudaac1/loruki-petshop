@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --dark-color: #598532;
+  --primary-color: #81BC4E;
+  --light-color: #C0DDA6;
+  --secondary-color: #f07728;
+  --black1-color: #06070E;
+  --black2-color: #333333;
+  --white-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body { 
+  color: var(--black2-color); 
+  line-height: 1.6;
+}
+
+a { text-decoration: none; }
+ul { list-style-type: none; }
+
+/* UTILITIES */
+.container { 
+  max-width: 1100px; 
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: var(--white-color);
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+/* SHOWCASE */
+
+/* STATS */
+
+/* HAPPY */
+
+/* SERVICES */
+
+/* FOOTER */
+footer {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
