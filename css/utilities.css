@@ -78,9 +78,16 @@
   color: var(--white-color)
 }
 
+.btn-light a, .bg-light a { color: var(--black2-color); }
+
 /* TEXT */
+.bold { font-weight: bold; }
+
 .text-center { text-align: center; }
-.text-secondary { color: var(--secondary-color); }
+
+.text-primary { color: var(--primary-color) !important; }
+.text-secondary { color: var(--secondary-color) !important; }
+.text-dark { color: var(--dark-color) !important; }
 
 .lead { font-size: 20px }
 
@@ -91,7 +98,6 @@
 
 /* MARGIN */
 .my-1 { margin: 1rem 0; }
-.my-1-auto { margin: 1rem auto; } /*stats-heading in conflict*/
 .my-2 { margin: 1.5rem 0; }
 .my-3 { margin: 2rem 0; }
 .my-4 { margin: 3rem 0; }
